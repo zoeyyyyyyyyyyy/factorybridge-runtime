@@ -1,0 +1,116 @@
+{
+  "source_project": "FactoryBridge",
+  "source_commit": "55fd8d81d52cf554745b91e250e5fa74842fd49e",
+  "scope": "Manufacturing coordination runtime with synthetic suppliers; no CAD tools, benchmark cases, fresh data, keys, logs or git history",
+  "unchanged_source_files": [
+    {
+      "path": "LICENSE",
+      "sha256": "a92fe5c87982a282c1321396448736f0e05de58609ff92d61854b59faa1fec87",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "schemas.py",
+      "sha256": "778904a2d1619c9250e79f17d79dc9702b4ca42f35a3f005b4518c50c96bdaf7",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "tools_api.py",
+      "sha256": "812c40b98add91421fb69f11d0043de52064a4d6bd742fafbe9b42d9e68f5496",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "llm.py",
+      "sha256": "4418980aec74240623ba8f6895a7805380259715bd2d8c6456df457d477a204e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "simulator.py",
+      "sha256": "33dc29365c05a6dd75202ca6687b966dcd5db37ca4dbd760950b0d92f7ebf022",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "agents/__init__.py",
+      "sha256": "9a92de9df0d6f181b3778715aba0886f6556bdc98f7f7e93557756fc6346d72f",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "agents/common.py",
+      "sha256": "f3ad940f48b768bcfe77861c87c71ae6269b72ca65529e08da4d80bf6ddd6167",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "agents/planner.py",
+      "sha256": "932e39b3c3c5584bd6084fdb6f5d457a9ba55b799eb9f439e211a11c2a9ffbae",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "bench/__init__.py",
+      "sha256": "3f35ec52f252b4a1c187ed2127d6f0fae67ea6b3421a0c21ab6faf673790c05a",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "bench/order_io.py",
+      "sha256": "a71d6f23955939973fa63aaf28f0e9c39fee74d0af61111322a2748b1d2dd92e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "bench/session.py",
+      "sha256": "c076b38cef00e0d4506143dd2bbcd45a636da6dad665c3a6241cfd8aeb83207e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "bench/checker.py",
+      "sha256": "a432c4c579cede70c0acf769134b3860dce3a25eb90af0dadb1e8a6e66c990a4",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "bench/spend.py",
+      "sha256": "ff497c08672cfe327ea25626f4b09cd5beb6c2637594ca2a49199b53136536f1",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "marketplace/__init__.py",
+      "sha256": "e47737ed5ebaeccbc9016ec229a3b78c291189721bfd9a38b2c94a4c92f62253",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "marketplace/core.py",
+      "sha256": "69c2d748b8025c0469b738d3b2b61c026933c16e71c8bc48bf6410c1dbb4951e",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "marketplace/world_bridge.py",
+      "sha256": "9f30ffda179e45f1c280bc043215e1db7c71b20b316116a0b0fb4abf008595b3",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "suppliers/__init__.py",
+      "sha256": "277d08738756bec94356d62f3a8c9b89e507e0e27622209dc6060b7803af8c2d",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "suppliers/base.py",
+      "sha256": "490e86507128bf63dbd2ec1b9b8f3cc0614bf7077822d47be2b1888f8c36e2f7",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "suppliers/rule_based.py",
+      "sha256": "220f07e37fb64b0aefc26d649d904600261fb1c58eee929a3d97d38592c2ab0b",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "suppliers/print_calendar.py",
+      "sha256": "c51056a24922bb916a4ac855f5355269f83413850cbeddf2ad9bfd438bef55f7",
+      "origin": "unchanged source"
+    },
+    {
+      "path": "suppliers/print_estimates.py",
+      "sha256": "e3ff3b489b6610ceb0abadf1cd2ef6e3421574882405b888ffc835e22263f749",
+      "origin": "unchanged source"
+    }
+  ],
+  "adaptations": [
+    "factorybridge_demo.py extracts only config() from tests/simulator_fixture.py; synthetic fixture is loaded as a package resource",
+    "tests/simulator_fixture.py is a compatibility import"
+  ]
+}

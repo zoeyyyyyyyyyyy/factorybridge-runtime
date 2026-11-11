@@ -1,0 +1,117 @@
+{
+  "origin": "synthetic_fixture",
+  "review": {
+    "status": "synthetic_fixture"
+  },
+  "note": "ARBITRARY TEST CONSTANTS, not human-reviewed slicing or company evidence",
+  "estimates": [
+    {
+      "estimate_id": "SYNTHETIC-cheap",
+      "order_id": "fixture-integration-only",
+      "parts": [
+        {
+          "part_id": "fixture-spacer",
+          "kind": "print",
+          "qty": 2,
+          "material": "PLA",
+          "volume_cm3": 1,
+          "max_dim_mm": 10,
+          "tolerance_mm": 0.2,
+          "layers": null,
+          "size_mm": null,
+          "sku": null
+        }
+      ],
+      "plates": [
+        {
+          "plate_id": "plate",
+          "quantity_included": true,
+          "quantities": {
+            "fixture-spacer": 2
+          },
+          "material": "PLA",
+          "machine_seconds": 259200,
+          "filament_g": "10",
+          "printer_profile": {
+            "id": "SYNTHETIC-profile",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "print_settings": {
+            "id": "SYNTHETIC-settings",
+            "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+          },
+          "slicer": {
+            "name": "PrusaSlicer",
+            "version": "SYNTHETIC_NOT_ACTUALLY_SLICED"
+          },
+          "source": {
+            "gcode_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+            "gcode_path": "SYNTHETIC_NO_REAL_GCODE"
+          },
+          "geometry_sources": [
+            {
+              "part_id": "fixture-spacer",
+              "uri": "SYNTHETIC_FIXTURE_ONLY",
+              "revision": "unit-fixture",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "estimate_id": "SYNTHETIC-fast",
+      "order_id": "fixture-integration-only",
+      "parts": [
+        {
+          "part_id": "fixture-spacer",
+          "kind": "print",
+          "qty": 2,
+          "material": "PLA",
+          "volume_cm3": 1,
+          "max_dim_mm": 10,
+          "tolerance_mm": 0.2,
+          "layers": null,
+          "size_mm": null,
+          "sku": null
+        }
+      ],
+      "plates": [
+        {
+          "plate_id": "plate",
+          "quantity_included": true,
+          "quantities": {
+            "fixture-spacer": 2
+          },
+          "material": "PLA",
+          "machine_seconds": 172800,
+          "filament_g": "10",
+          "printer_profile": {
+            "id": "SYNTHETIC-profile",
+            "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+          },
+          "print_settings": {
+            "id": "SYNTHETIC-settings",
+            "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+          },
+          "slicer": {
+            "name": "PrusaSlicer",
+            "version": "SYNTHETIC_NOT_ACTUALLY_SLICED"
+          },
+          "source": {
+            "gcode_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+            "gcode_path": "SYNTHETIC_NO_REAL_GCODE"
+          },
+          "geometry_sources": [
+            {
+              "part_id": "fixture-spacer",
+              "uri": "SYNTHETIC_FIXTURE_ONLY",
+              "revision": "unit-fixture",
+              "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

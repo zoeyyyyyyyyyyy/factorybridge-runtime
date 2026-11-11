@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "factorybridge-runtime"
+version = "0.1.0"
+description = "FactoryBridge coordination runtime for reproducible synthetic agent integrations"
+requires-python = ">=3.11"
+license = "MIT"
+
+[tool.setuptools]
+py-modules = ["llm", "schemas", "simulator", "tools_api", "factorybridge_demo"]
+
+[tool.setuptools.packages.find]
+include = ["agents*", "bench*", "marketplace*", "suppliers*", "tests*", "factorybridge_fixture_data*"]
+
+[tool.setuptools.package-data]
+factorybridge_fixture_data = ["*.json"]
